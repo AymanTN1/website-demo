@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+                <div>
+                    <img src="images/logo_bts.png" alt="logo" id="logo">
+                </div>
+                <div class="part1">
+                    <ul class="middle-links">
+                        <li><a href="#Filiere">Filière</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class=" Sign-login">
+                        <li><a href="#formulaire-inscription">Sign-Up</a></li>
+                        <li><a href="#login" class="btn">Log in</a></li>
+                    </ul>
+                </div>
+               
+    </nav>
+        
+
+    <br><br><br><br><br>
+
+
+    <main id="bienvenue">
+        <div class="logo-A1">
+            <img src="images/logo2_bts.png" alt="logo" id="logo_bts">
+        </div>
+        
+        <div class="A1">
+            <p>CENTRE BTS IBN SINA KÉNITRA</p>
+            <div class="slogon">
+                <h1>votre tremplin vers l’avenir !</h1>
+            </div>
+            <p>Rejoignez la communauté !</p>
+            <a href="#formulaire-inscription"><button type="button" value="inscruption" id="A1button" >S'inscrire</button></a>
+        </div>
+    </main>
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div classe="title">
+        <center><h1 id="Filiere">Filière:</h1></center>
+    </div>
+    <br><br><br>
+    <div class="Filiere">
+            
+        <div class="CF">
+          <h2>DSI</h2>
+          <img src="images/DSI.png" alt="DSI" id="DSI">
+          <p>Développement des système d'information</p>
+        </div>
+        <div class="CF">
+          <h2>SE</h2>
+          <img src="images/SE.webp" alt="SE" id="SE">
+          <p>Système electronique</p> 
+        </div>
+        <div class="CF">
+          <h2>ELT</h2>
+          <img src="images/ELT.jpg" alt="ELT" id="ELT">
+          <p>Electrotechnique</p>
+        </div>
+        <div class="CF">
+          <h2>MI</h2>
+          <img src="images/MI.jpeg" alt="MI" id="MI">
+          <p>Mintenance indestruelle</p> 
+        </div>
+        <div class="CF">
+          <h2>CPI</h2>
+          <img src="images/CPI.jpeg" alt="CPI" id="CPI">
+          <p> Conception de produit indestruelle</p>
+        </div>
+        <div class="CF">
+          <h2>PME/PMI</h2>
+          <img src="images/PME.PMI.jpg" alt="PME/PMI" id="PME/PMI">
+          <p>Les petites et moyennes entreprises - petites et moyennes industries</p>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <center><h1 id="login" >SE CONNECTER</h1></center>
+    <div class="form-container" >
+        <form class="form">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required="">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required="">
+          </div>
+
+        </form>
+        <div class="button">
+          <button class="form-submit-btn" type="submit">Se connecter</button>
+        </div>
+        <div class="button-group">
+          <div class="button">
+            <center><a href="#bienvenue" class="home-link">Accueil</a></center>
+          </div>
+          <div class="button">
+            <a href="#formulaire-inscription" class="signup-link">Créer un nouveau compte</a>
+          </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <center><h1>S'INSCRIRE</h1></center>
+    <div class="container-formulaire-inscription">
+      <form class="formulaire-inscription" id="formulaire-inscription">
+        <div class="groupe-formulaire">
+          <label for="prenom">Prénom</label>
+          <input type="text" id="prenom" name="prenom" required>
+        </div>
+        <div class="groupe-formulaire">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="groupe-formulaire">
+          <label for="date-naissance">Date de naissance</label>
+          <input type="date" id="date-naissance" name="date-naissance" required>
+        </div>
+        <div class="groupe-formulaire">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="groupe-formulaire">
+          <label for="telephone">Numéro de téléphone</label>
+          <input type="tel" id="telephone" name="telephone" required>
+        </div>
+        <div class="groupe-formulaire">
+          <label for="mot-de-passe">Mot de passe</label>
+          <input type="password" id="mot-de-passe" name="mot-de-passe" required>
+        </div>
+        <div class="groupe-formulaire">
+          <label for="confirmation-mot-de-passe">Confirmation du mot de passe</label>
+          <input type="password" id="confirmation-mot-de-passe" name="confirmation-mot-de-passe" required>
+        </div>
+        <button class="bouton-soumettre-formulaire" type="submit">S'inscrire</button>
+      </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <footer>
+      <center><p>&copy; 2024 BTS KENITRA</p></center>
+    </footer>
+      
+</body>
+</html>
